@@ -1,0 +1,8 @@
+Blueprints for "SLO"
+  * "Uptime":
+    Requires { }
+    Provides {
+      indicators: { query: "some_query" },
+      vendor: "honeycomb",
+      evaluation: "query"
+    }
