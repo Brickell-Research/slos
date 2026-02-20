@@ -20,6 +20,9 @@ jobs:
           expectations_dir: brickell_research
           output_path: output
 
+      - name: Fix output permissions
+        run: sudo chown -R $USER:$USER output
+
       - name: Set up Terraform
         uses: hashicorp/setup-terraform@v3
 
