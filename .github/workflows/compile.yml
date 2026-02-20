@@ -17,7 +17,7 @@ jobs:
         uses: Brickell-Research/caffeine_lang_github_action@main
         with:
           blueprint_file: blueprints.caffeine
-          expectations_dir: platform
+          expectations_dir: brickell_research
           output_path: output
 
       - name: Set up Terraform
