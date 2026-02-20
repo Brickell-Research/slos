@@ -1,0 +1,23 @@
+.github/workflows/compile.yml
+  78489ac80fc3211b 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "2cf6dadbcfd56d9ee7d56c2375aa785441365a65",
+  "prompts": {
+    "78489ac80fc3211b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c8c7744f-2abe-46aa-83d2-53822e6165d2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 50,
+      "total_deletions": 3,
+      "accepted_lines": 47,
+      "overriden_lines": 0
+    }
+  }
+}
