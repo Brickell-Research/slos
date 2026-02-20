@@ -1,12 +1,5 @@
 Expectations for "Uptime"
   ## Location:
-  ## https://notifications.brickellresearch.org/admin
-  ##
-  ## Less important since this is an internal tool.
-  * "Notifications Admin Portal is Up":
-    Provides { threshold: 99.0%, window_in_days: 30 }
-
-  ## Location:
   ## https://caffeine-lang.run/
   ##
   ## This is the main public website for Caffeine Lang.

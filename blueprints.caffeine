@@ -2,7 +2,7 @@ Blueprints for "SLO"
   * "Uptime":
     Requires { }
     Provides {
-      indicators: { query: "some_query" },
+      indicators: { query: "LT($lcp.value, 2500)" },
       vendor: "honeycomb",
       evaluation: "query"
     }

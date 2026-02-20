@@ -39,7 +39,7 @@ jobs:
         run: terraform apply -auto-approve
         env:
           TF_VAR_honeycomb_api_key: ${{ secrets.HONEYCOMB_API_KEY }}
-          TF_VAR_honeycomb_dataset: platform-production
+          TF_VAR_honeycomb_dataset: caffeine-lang-website
 
       - name: Commit Terraform State
         run: |
